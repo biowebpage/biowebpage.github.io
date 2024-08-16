@@ -1,0 +1,132 @@
+#typewriter-text {
+  display: inline-block;
+  text-align: center; 
+}
+#typewriter-container {
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center; 
+}
+body {
+  background-image: url('Black-Wallpaper.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button :hover {
+  background-color: #02794d;
+}
+.abutton {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.abutton:hover {
+  background-color: #ff5722;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0; 
+  }
+}
+
+/* Other styles... */
+#panel {
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  display: flex; /* Make panel a flex container */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+#discord-status {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  align-self: center; 
+  width: 100%; 
+}
+
+.discord-info, .discord-server-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.discord-info img {
+  margin-bottom: 5px; 
+}
+
+.discord-server-info p { 
+  text-align: center; 
+}
+
+.button4 {border-radius: 12px;}
+
+#server-panel {
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 20px; /* Add some padding */
+  margin-bottom: 20px; /* Add some bottom margin */
+  text-align: center; /* Center the text inside the panel */
+}
+
+/* ... other CSS ... */
+
+#panel {
+  display: flex; /* Make panel a flex container */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.button4 {
+  position: relative; /* Make the button positioned relative to its normal flow */
+  bottom: 0; /* Position the button at the bottom */
+  left: 0; /* Position the button at the left */
+  margin-top: 20px; /* Add some space between the panel and the button */
+}
+
+body, * {
+    font-family: 'Minecraftia', sans-serif!important;
+}
+
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('Minecraftia-Regular.ttf') format('truetype');
+}

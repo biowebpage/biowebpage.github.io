@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test BioSite</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script type="module">
+      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+      new fairyDustCursor();
+    </script>
+  </head>
+  <body>
+    <button class="abutton" id="mute-button">Mute</button>
+    <div class="parent" style="position: absolute;">
+      <div>
+        <div id="typewriter-container">
+          <div id="typewriter-text"></div>
+        </div>
+        <div id="panel" style="width: 600px;">
+          <div id="discord-status">
+            <div class="discord-info">
+              <img
+                src=""
+                alt="Profile Picture"
+                class="discord-pic"
+                id="discord-pic"
+              />
+              <div class="discord-details" id="discord-details">
+                <p class="discord-name" id="discord-name"></p>
+                <p class="discord-last-seen" id="discord-last-seen"></p>
+              </div>
+            </div>
+            <div id="server-panel">
+              <p class="name" id="name"></p>
+              <p class="approximate_member_count" id="approximate_member_count"></p>
+              <p class="approximate_presence_count" id="approximate_presence_count"></p>
+              <button type="button" 
+                class="button button4" onclick="location.href='https://discord.gg/projectnugget';" value="Join discord" />Join Discord</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <audio id="background-music" loop>
+      <source src="your-music-file.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+    <div></div>
+  </body>
+</html>
