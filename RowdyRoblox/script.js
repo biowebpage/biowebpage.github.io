@@ -78,7 +78,7 @@ async function getGuildData(invCode) {
   }
 }
 
-const invCode = "";
+const invCode = "txrp1";
 
 // Await the result of getGuildData
 (async () => {
